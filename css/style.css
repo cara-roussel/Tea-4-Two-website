@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea&family=Yusei+Magic&display=swap" rel="stylesheet");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/avis.css");
+
+
+body{
+	font-family: 'Yusei Magic', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+  background:#faf4f4;
+}
+
+h1, h2, h3 {
+	font-family: 'Caladea', serif;
+	font-weight: bold;
+  color: #d6b0b1;
+}
+
+h4 {
+  font-family: 'Caladea', serif;
+  font-weight: lighter;
+  color: #d6b0b1;
+  text-align: center;
+  font-size: 18px;
+}
+
+h5 {
+  font-family: 'Caladea', serif;
+  font-weight: bolder;
+  color: #d6b0b1;
+  text-align: center;
+  font-size: 20px;
+}
+
+h6 {
+  font-family: 'Caladea', serif;
+  font-weight: bolder;
+  color: #d6b0b1;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+p {
+  font-family: 'Caladea', serif;
+  font-weight: lighter;
+  color: #d6b0b1;
+  text-align: center;
+  font-size: 30px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+
+}
+
+.list-inline i{
+  font-size: 50px;
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+}
+
+.icon {
+  color: #926e6f;
+  text-align: center;
+}
+
+.icon:hover {
+  color: #3b5360;
+}
+
+.social{
+  text-align: center;
+}
+
+.avis {
+  padding: 20px;
+  font-size: 19px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  margin: 25px;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border-radius: 6px;
+}
